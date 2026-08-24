@@ -3,7 +3,7 @@
 ## Integrantes
 
 - Gabriel Alejandro Gamba Leguizamón 202510297 
-- Pendiente de definir
+- José Fernando Barreto Franco 202510341
 - Pendiente de definir
 
 ## Idea de investigación
