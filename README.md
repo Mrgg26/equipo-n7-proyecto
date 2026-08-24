@@ -4,11 +4,11 @@
 
 - Gabriel Alejandro Gamba Leguizamón 202510297 
 - José Fernando Barreto Franco 202510341
-- Pendiente de definir
+- Daniel Felipe Molina Barajas 202424582
 
 ## Idea de investigación
 
-Pendiente de definir con el equipo.
+Quiero saber cómo las metodologías ágiles y tradicionales influyen en el desarrollo y la gestión de proyectos de software, porque eso permitiría identificar qué metodología resulta más adecuada según las características, necesidades y condiciones de cada proyecto.
 
 ## Estado del proyecto
 
