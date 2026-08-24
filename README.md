@@ -1,18 +1,16 @@
-\ Proyecto de Metodología de la Investigación
+# Proyecto de Metodología de la Investigación
 
+## Integrantes
 
+- Gabriel Alejandro Gamba Leguizamón 202510297 
+- Pendiente de definir
+- Pendiente de definir
 
-\ Integrantes
-
-\- Gabriel Alejandro Gamba Leguizamón 202510297 
-\- Pendiente de definir
-\- Pendiente de definir
-
-\## Idea de investigación
+## Idea de investigación
 
 Pendiente de definir con el equipo.
 
-\## Estado del proyecto
+## Estado del proyecto
 
 Lección 1 — infraestructura inicial del repositorio configurada.
 
