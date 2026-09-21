@@ -1,0 +1,352 @@
+\documentclass[12pt,letterpaper]{article}
+
+% ==========================================================
+% PLANTILLA LATEX / ICONTEC
+% Curso Metodología de la Investigación - UPTC
+% Generada a partir del Instrumento de trabajo (Lección 1):
+% "Selección de la idea de investigación" - únicamente la
+% información propia del equipo (no el ejemplo resuelto).
+% ==========================================================
+
+\usepackage[top=3cm,left=4cm,bottom=3cm,right=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx} % tipografía tipo Times, similar al PDF de referencia
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{colorlinks=false, hidelinks}
+
+\onehalfspacing
+
+\definecolor{badgebg}{HTML}{FDF6E3}
+\definecolor{badgeborder}{HTML}{C9A227}
+\definecolor{badgetext}{HTML}{8A6D1D}
+\definecolor{greensignal}{HTML}{2E7D32}
+
+% ---------- Formato de títulos de sección (centrado, versalitas, como el PDF) ----------
+\titleformat{\section}{\centering\bfseries\large}{\thesection.}{0.5em}{\MakeUppercase}
+\titleformat{\subsection}{\bfseries\normalsize}{\thesubsection}{0.5em}{}
+\titlespacing*{\section}{0pt}{2.5em}{1.5em}
+
+% ---------- Comando para el "badge" EN CONSTRUCCIÓN / estado ----------
+\newcommand{\estado}[1]{%
+  \begin{center}
+  \tcbox[colback=badgebg,colframe=badgeborder,boxrule=0.5pt,
+    arc=6pt,left=6pt,right=6pt,top=3pt,bottom=3pt,
+    fontupper=\small\bfseries\color{badgetext}]{\MakeUppercase{#1}}
+  \end{center}
+}
+
+% ---------- Comando para la nota itálica que acompaña cada estado ----------
+\newcommand{\notafase}[1]{\begin{center}\itshape\small #1\end{center}}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\begin{document}
+
+% ================= PORTADA =================
+\begin{titlepage}
+\begin{center}
+\vspace*{1.5cm}
+{\large UNIVERSIDAD PEDAGÓGICA Y TECNOLÓGICA DE COLOMBIA}\\[0.3cm]
+{\large FACULTAD DE INGENIERÍA}\\[0.3cm]
+{\large INGENIERÍA DE SISTEMAS Y COMPUTACIÓN}
+
+\vspace{3cm}
+
+{\Large\bfseries RELACIÓN ENTRE LAS HORAS DE EXPOSICIÓN A PANTALLAS,\\
+LOS HÁBITOS POSTURALES Y LOS SÍNTOMAS FÍSICOS EN\\
+ESTUDIANTES DE INGENIERÍA DE SISTEMAS DE LA UPTC}
+
+\vspace{0.8cm}
+{\itshape\small Título provisional --- se ajusta al formular la propuesta (Fase 3)}
+
+\vspace{3cm}
+
+{\bfseries AUTORES}\\[0.6cm]
+Gabriel Alejandro Gamba Leguizamón\\
+José Fernando Barreto Franco\\
+Daniel Felipe Molina Barajas
+
+\vfill
+
+Documento elaborado en el marco del curso Metodología de la Investigación\\[0.3cm]
+Tunja, Colombia · 2026
+
+\end{center}
+\end{titlepage}
+
+% ================= CONTENIDO (tabla de estado por sección) =================
+\section*{\centering CONTENIDO}
+\begin{center}
+\begin{tabularx}{\textwidth}{L{10cm} X}
+\toprule
+\textbf{Sección} & \textbf{Estado}\\
+\midrule
+Índice de tablas & incluido\\
+Índice de figuras & incluido\\
+1. Planteamiento del problema & parcial\\
+\quad 1.1 Antecedentes & en construcción\\
+\quad 1.2 Descripción de la situación problemática & redactado\\
+\quad 1.3 Formulación del problema & en construcción\\
+\quad 1.4 Consecuencias de no investigar & en construcción\\
+\quad 1.5 Delimitación & en construcción\\
+2. Justificación & en construcción\\
+3. Objetivos & en construcción\\
+4. Alcance de la investigación & en construcción\\
+5. Formulación de hipótesis & en construcción\\
+6. Variables & en construcción\\
+7. Marco referencial & en construcción\\
+8. Diseño metodológico & en construcción\\
+9. Resultados y discusión & en construcción\\
+10. Conclusiones y recomendaciones & en construcción\\
+Referencias & en construcción\\
+Anexos & incluido (parcial)\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\newpage
+% ================= ÍNDICE DE TABLAS =================
+\section*{\centering ÍNDICE DE TABLAS}
+Tabla 1. Causas y síntomas identificados en la situación problemática\dotfill 1
+
+\vspace{1cm}
+\notafase{Esta lista crece con cada tabla que se incorpore al cuerpo del documento en fases posteriores.}
+
+\newpage
+% ================= ÍNDICE DE FIGURAS =================
+\section*{\centering ÍNDICE DE FIGURAS}
+\notafase{Aún no hay figuras incorporadas al cuerpo del documento. Se listan aquí a medida que cada fase incorpore figuras propias (diagramas, gráficos, esquemas, etc.).}
+
+\newpage
+% ================= 1. PLANTEAMIENTO DEL PROBLEMA =================
+\section{Planteamiento del problema}
+
+\subsection{Antecedentes}
+\estado{En construcción}
+\notafase{Se redacta cuando se recopile la evidencia y las cifras del contexto (Fase 2 del curso).}
+
+\subsection{Descripción de la situación problemática}
+
+La problemática principal de esta investigación surge del impacto que generan las
+extensas jornadas de trabajo frente al computador sobre la salud física y el
+bienestar general de los estudiantes de Ingeniería de Sistemas. El uso continuo e
+ininterrumpido de pantallas, sumado a la adopción de posturas inadecuadas durante
+las sesiones de programación y estudio, se asocia con molestias osteomusculares y
+afecciones visuales que pueden condicionar el rendimiento académico, la
+concentración y la calidad de vida de los futuros ingenieros, quienes a menudo
+normalizan el malestar físico como un aspecto inevitable de su disciplina.
+
+\medskip
+\noindent\textbf{Causas.} Entre las principales causas se encuentra el
+desconocimiento de las normas básicas de higiene postural y de los principios de
+ergonomía en entornos de aprendizaje digital, así como el uso de mobiliario y
+equipos no adaptados ergonómicamente (por ejemplo, computadores portátiles usados
+sin soporte elevado ni periféricos externos, en mesas o sillas no regulables).
+También influyen la falta de hábito en la realización de pausas activas --- favorecida
+por la alta exigencia de entregas de software que fomenta jornadas continuas sin
+descansos--- y condiciones ambientales desfavorables, como una iluminación deficiente,
+distancias inadecuadas frente a la pantalla y un ajuste de brillo incorrecto.
+
+\medskip
+\noindent\textbf{Síntomas.} Entre los síntomas asociados se observan episodios
+recurrentes de fatiga visual, ardor ocular, sequedad y visión borrosa (vinculados al
+Síndrome Visual Informático), así como tensiones y dolores crónicos en la zona
+cervical, lumbar, hombros y muñecas derivados de mantener posturas forzadas por
+periodos prolongados. Se suma la fatiga física y mental acumulada: la permanencia
+continuada frente a dispositivos altera los patrones de sueño, reduce los niveles de
+atención y la capacidad de concentración, y el sedentarismo asociado contribuye al
+descondicionamiento físico general y a la aparición de cefaleas al finalizar las
+actividades diarias.
+
+\bigskip
+\begin{center}
+\begin{longtable}{L{7cm} L{7cm}}
+\caption{Causas y síntomas identificados en la situación problemática} \\
+\toprule
+\textbf{Causas} & \textbf{Síntomas} \\
+\midrule
+\endfirsthead
+Desconocimiento de normas ergonómicas & Fatiga visual (Síndrome Visual Informático) \\
+Uso de mobiliario y equipos inadecuados & Dolores osteomusculares (cervical, lumbar, muñecas) \\
+Ausencia de pausas activas durante la jornada & Cansancio físico y mental acumulado \\
+Exposición ininterrumpida a pantallas & Cefaleas y dolores de cabeza recurrentes \\
+Iluminación y distancia de visión incorrectas & Disminución de la concentración y fatiga crónica \\
+Estilo de vida sedentario y jornadas extensas & Alteraciones en los patrones de sueño \\
+\bottomrule
+\end{longtable}
+\end{center}
+
+\subsection{Formulación del problema}
+\estado{En construcción}
+\notafase{Se redacta cuando se libere el tema correspondiente en el curso (Fase 2).}
+
+\subsection{Consecuencias de no investigar}
+\estado{En construcción}
+\notafase{Se redacta cuando se libere el tema correspondiente en el curso (Fase 2).}
+
+\subsection{Delimitación}
+\estado{En construcción}
+\notafase{Se redacta cuando se libere el tema correspondiente en el curso (Fase 2). Delimitación tentativa: estudiantes de Ingeniería de Sistemas de la UPTC.}
+
+\newpage
+% ================= 2. JUSTIFICACIÓN =================
+\section{Justificación}
+\estado{En construcción}
+\notafase{Se redacta en la Fase 3 del curso (Formulación de la propuesta). Insumo disponible en el Anexo A: respuestas de interés y pertinencia del instrumento de selección de idea.}
+
+\newpage
+% ================= 3. OBJETIVOS =================
+\section{Objetivos}
+\estado{En construcción}
+\notafase{Se redacta en la Fase 3 del curso.}
+
+\newpage
+% ================= 4. ALCANCE =================
+\section{Alcance de la investigación}
+\estado{En construcción}
+\notafase{Sección incorporada según Hernández-Sampieri (tipo de estudio: exploratorio, descriptivo, correlacional o explicativo) --- no aparece como título propio en la NTC 1486. Se redacta en la Fase 3.}
+
+\newpage
+% ================= 5. HIPÓTESIS =================
+\section{Formulación de hipótesis}
+\estado{En construcción}
+\notafase{Sección incorporada según Hernández-Sampieri, Tamayo y Tamayo y Bernal --- no aparece como título propio en la NTC 1486. Se redacta en la Fase 3.}
+
+\newpage
+% ================= 6. VARIABLES =================
+\section{Variables}
+\estado{En construcción}
+\notafase{Definición nominal/conceptual en la Fase 3; operacionalización completa en la Fase 5.}
+
+\newpage
+% ================= 7. MARCO REFERENCIAL =================
+\section{Marco referencial}
+\estado{En construcción}
+\notafase{Se redacta en la Fase 4 del curso (Construcción del marco referencial).}
+
+\newpage
+% ================= 8. DISEÑO METODOLÓGICO =================
+\section{Diseño metodológico}
+\estado{En construcción}
+\notafase{Se redacta en la Fase 5 del curso. Insumo disponible en el Anexo A: respuestas de viabilidad del instrumento de selección de idea (encuesta estructurada, participantes disponibles, herramientas de recolección y análisis).}
+
+\newpage
+% ================= 9. RESULTADOS =================
+\section{Resultados y discusión}
+\estado{En construcción}
+\notafase{Se redacta en la Fase 6 del curso.}
+
+\newpage
+% ================= 10. CONCLUSIONES =================
+\section{Conclusiones y recomendaciones}
+\estado{En construcción}
+\notafase{Se redacta en la Fase 7 del curso.}
+
+\newpage
+% ================= REFERENCIAS =================
+\section*{\centering REFERENCIAS}
+\estado{En construcción}
+\notafase{Aún no se han incorporado referencias bibliográficas al proyecto. Se documentan aquí a medida que cada fase incorpore fuentes citadas, siguiendo la numeración de primera aparición en el texto.}
+
+\newpage
+% ================= ANEXOS =================
+\section*{\centering ANEXOS}
+
+\subsection*{Anexo A. Instrumento de selección de idea de investigación (Lección 1)}
+\notafase{Reproduce, para trazabilidad, la información propia del equipo diligenciada en el instrumento de la Lección 1 (se excluye el ejemplo resuelto de la guía).}
+
+\bigskip
+\noindent\textbf{Datos del equipo}
+\begin{center}
+\begin{tabularx}{\textwidth}{L{5cm} X}
+\toprule
+\textbf{Campo} & \textbf{Respuesta}\\
+\midrule
+Integrante 1 & Gabriel Alejandro Gamba Leguizamón\\
+Integrante 2 & José Fernando Barreto Franco\\
+Integrante 3 & Daniel Felipe Molina Barajas\\
+Fecha & 23 de agosto de 2026\\
+Tema de interés general & Salud Digital, Ergonomía y Bienestar Físico en Estudiantes de Ingeniería de Sistemas\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\bigskip
+\noindent\textbf{Idea de investigación tentativa}
+
+\noindent Quiero saber cuál es la relación entre el número de horas diarias
+dedicadas a la exposición a pantallas, las posturas adoptadas durante las jornadas
+de estudio y la frecuencia de síntomas físicos (fatiga visual y molestias
+osteomusculares) en los estudiantes de Ingeniería de Sistemas de la UPTC, porque
+eso importaría para proponer una guía práctica de ergonomía y pausas activas
+adaptada a las rutinas de los futuros profesionales de software.
+
+\bigskip
+\noindent\textbf{Interés y pertinencia}
+\begin{center}
+\begin{tabularx}{\textwidth}{L{5.5cm} X}
+\toprule
+\textbf{Pregunta} & \textbf{Respuesta del equipo}\\
+\midrule
+¿Cuál es su interés personal en este tema? & Como estudiantes de Ingeniería de Sistemas, pasamos largas jornadas frente al computador y frecuentemente experimentamos fatiga visual o dolores de espalda y cuello, por lo que queremos entender cómo nuestras rutinas afectan la salud física.\\
+¿Cuál es su interés académico o profesional? & El tema se relaciona directamente con la salud ocupacional e higiene postural en el ámbito de la ingeniería de software, permitiéndonos adquirir conocimientos sobre la prevención de riesgos físicos derivados del trabajo sedentario y continuo con computadores.\\
+¿Es un tema prioritario o significativo para la disciplina? & Sí. La extensión de jornadas de programación y clases virtuales aumenta la incidencia de síndromes como el Síndrome Visual Informático y trastornos musculoesqueléticos en estudiantes e ingenieros, impactando su rendimiento y calidad de vida.\\
+¿A quién afecta el problema que identificaron? & Principalmente a los estudiantes de la Escuela de Ingeniería de Sistemas, docentes, y profesionales del área que pasan más de 6 horas diarias expuestos a pantallas.\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\bigskip
+\noindent\textbf{Originalidad}
+\begin{center}
+\begin{tabularx}{\textwidth}{L{5.5cm} X}
+\toprule
+\textbf{Pregunta} & \textbf{Respuesta del equipo}\\
+\midrule
+¿Ya se ha investigado esto antes? & Existen estudios generales sobre ergonomía y uso de pantallas en trabajadores de oficina, pero pocos enfocados específicamente en la población universitaria de Ingeniería de Sistemas de nuestro contexto regional.\\
+Si ya existe, ¿qué preguntas quedan sin responder? & Cómo se relacionan específicamente el número acumulado de horas continuas de programación con la aparición temprana de molestias osteomusculares y visuales en estudiantes jóvenes.\\
+¿Qué aportarían ustedes que no exista ya? & Datos primarios y actualizados del contexto universitario local (UPTC) junto con un análisis correlacional sencillo entre hábitos posturales, horas de pantalla y síntomas físicos reportados.\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\bigskip
+\noindent\textbf{Viabilidad}
+\begin{center}
+\begin{tabularx}{\textwidth}{L{5.5cm} X}
+\toprule
+\textbf{Pregunta} & \textbf{Respuesta del equipo}\\
+\midrule
+¿Qué tan complejo es el tema para desarrollarlo en 16 semanas? & Muy viable y acotado. Consiste en diseñar y aplicar una encuesta estructurada (usando escalas validadas como la escala de usabilidad o dolor sintomático) y analizar los datos correlacionales.\\
+¿Tienen acceso a los datos, herramientas o participantes que necesitarían? & Sí. Tenemos acceso directo a nuestros compañeros de carrera como participantes del estudio y utilizaremos herramientas gratuitas como Google Forms para la recolección de datos y programas como Excel para el análisis de frecuencia.\\
+¿Tienen (o pueden adquirir en el curso) los conocimientos técnicos necesarios? & Sí. El diseño de encuestas y el análisis estadístico descriptivo/correlacional básico se abordan en el marco del curso de Metodología de la Investigación.\\
+¿El tiempo disponible (4 h de clase + 4 h autónomas por semana) alcanza para esta idea? & Sí. El tiempo es suficiente para la revisión de antecedentes, diseño del cuestionario, recolección de respuestas en 2 semanas, análisis estadístico y redacción del informe final.\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\bigskip
+\noindent\textbf{Semáforo de la idea}
+\begin{center}
+\begin{tabularx}{\textwidth}{L{2.5cm} L{6cm} X}
+\toprule
+\textbf{Señal} & \textbf{Significa} & \textbf{¿Aplica a la idea?}\\
+\midrule
+\textcolor{greensignal}{\textbf{Verde}} & Cumple los tres criterios sin ajustes mayores. & \textbf{Sí} --- puede avanzar a la Lección 2 (antecedentes).\\
+Amarillo & Cumple en general, pero un criterio necesita ajustarse. & No\\
+Rojo & Falla claramente en al menos un criterio. & No\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\end{document}
