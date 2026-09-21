@@ -1,0 +1,73 @@
+\documentclass[12pt,letterpaper]{article}
+
+% ==========================================================
+% PLANTILLA LATEX / ICONTEC
+% Curso Metodología de la Investigación - UPTC
+%
+% ESTE ES EL ARCHIVO QUE SE COMPILA (pdflatex main.tex).
+% El documento está dividido en módulos para facilitar
+% cambios futuros:
+%
+%   preambulo.tex            paquetes, colores, comandos
+%   portada.tex               carátula
+%   contenido.tex              tabla de estado por sección
+%   indice-tablas.tex          índice de tablas
+%   indice-figuras.tex         índice de figuras
+%   secciones/01-...10-...tex  cada sección numerada, un archivo
+%   referencias.tex            bibliografía
+%   anexos.tex                 anexo con el instrumento de idea
+%
+% Para editar una sección puntual, abre solo su archivo;
+% no es necesario tocar los demás.
+% ==========================================================
+
+\input{preambulo}
+
+\begin{document}
+
+\input{portada}
+\input{contenido}
+
+\newpage
+\input{indice-tablas}
+
+\newpage
+\input{indice-figuras}
+
+\newpage
+\input{secciones/01-planteamiento}
+
+\newpage
+\input{secciones/02-justificacion}
+
+\newpage
+\input{secciones/03-objetivos}
+
+\newpage
+\input{secciones/04-alcance}
+
+\newpage
+\input{secciones/05-hipotesis}
+
+\newpage
+\input{secciones/06-variables}
+
+\newpage
+\input{secciones/07-marco-referencial}
+
+\newpage
+\input{secciones/08-diseno-metodologico}
+
+\newpage
+\input{secciones/09-resultados}
+
+\newpage
+\input{secciones/10-conclusiones}
+
+\newpage
+\input{referencias}
+
+\newpage
+\input{anexos}
+
+\end{document}

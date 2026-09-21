@@ -1,0 +1,52 @@
+% ==========================================================
+% PREÁMBULO: paquetes, colores y comandos reutilizables
+% Edita este archivo para cambiar tipografía, márgenes,
+% colores de los badges, o el formato de los títulos.
+% ==========================================================
+
+\usepackage[top=3cm,left=4cm,bottom=3cm,right=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx} % tipografía tipo Times, similar al PDF de referencia
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{colorlinks=false, hidelinks}
+\usepackage{xurl}
+
+\onehalfspacing
+
+% ---------- Colores (tono ámbar del badge "EN CONSTRUCCIÓN") ----------
+\definecolor{badgebg}{HTML}{FDF6E3}
+\definecolor{badgeborder}{HTML}{C9A227}
+\definecolor{badgetext}{HTML}{8A6D1D}
+\definecolor{greensignal}{HTML}{2E7D32}
+
+% ---------- Formato de títulos de sección (centrado, versalitas, como el PDF) ----------
+\titleformat{\section}{\centering\bfseries\large}{\thesection.}{0.5em}{\MakeUppercase}
+\titleformat{\subsection}{\bfseries\normalsize}{\thesubsection}{0.5em}{}
+\titlespacing*{\section}{0pt}{2.5em}{1.5em}
+
+% ---------- Comando para el "badge" EN CONSTRUCCIÓN / estado ----------
+% Uso: \estado{En construcción}
+\newcommand{\estado}[1]{%
+  \begin{center}
+  \tcbox[colback=badgebg,colframe=badgeborder,boxrule=0.5pt,
+    arc=6pt,left=6pt,right=6pt,top=3pt,bottom=3pt,
+    fontupper=\small\bfseries\color{badgetext}]{\MakeUppercase{#1}}
+  \end{center}
+}
+
+% ---------- Comando para la nota itálica que acompaña cada estado ----------
+% Uso: \notafase{Se redacta en la Fase 3 del curso.}
+\newcommand{\notafase}[1]{\begin{center}\itshape\small #1\end{center}}
+
+% ---------- Columna de tabla con ancho fijo y texto justificado a la izquierda ----------
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
