@@ -23,9 +23,11 @@
 \usepackage{enumitem}
 \usepackage{hyperref}
 \hypersetup{colorlinks=false, hidelinks}
+\usepackage{xurl}
 
 \onehalfspacing
 
+% ---------- Colores (tono ámbar del badge "EN CONSTRUCCIÓN") ----------
 \definecolor{badgebg}{HTML}{FDF6E3}
 \definecolor{badgeborder}{HTML}{C9A227}
 \definecolor{badgetext}{HTML}{8A6D1D}
@@ -108,7 +110,7 @@ Tunja, Colombia · 2026
 8. Diseño metodológico & en construcción\\
 9. Resultados y discusión & en construcción\\
 10. Conclusiones y recomendaciones & en construcción\\
-Referencias & en construcción\\
+Referencias & redactado (parcial)\\
 Anexos & incluido (parcial)\\
 \bottomrule
 \end{tabularx}
@@ -117,10 +119,11 @@ Anexos & incluido (parcial)\\
 \newpage
 % ================= ÍNDICE DE TABLAS =================
 \section*{\centering ÍNDICE DE TABLAS}
-Tabla 1. Causas y síntomas identificados en la situación problemática\dotfill 1
+Tabla 1. Relación entre síntomas y causas\dotfill 1\\
+Tabla 2. Relación entre causas y síntomas\dotfill 1
 
 \vspace{1cm}
-\notafase{Esta lista crece con cada tabla que se incorpore al cuerpo del documento en fases posteriores.}
+\notafase{Esta lista crece en fases posteriores.}
 
 \newpage
 % ================= ÍNDICE DE FIGURAS =================
@@ -133,76 +136,115 @@ Tabla 1. Causas y síntomas identificados en la situación problemática\dotfill
 
 \subsection{Antecedentes}
 \estado{En construcción}
-\notafase{Se redacta cuando se recopile la evidencia y las cifras del contexto (Fase 2 del curso).}
+\notafase{Se redacta en la Fase 2 del curso.}
 
 \subsection{Descripción de la situación problemática}
 
-La problemática principal de esta investigación surge del impacto que generan las
-extensas jornadas de trabajo frente al computador sobre la salud física y el
-bienestar general de los estudiantes de Ingeniería de Sistemas. El uso continuo e
-ininterrumpido de pantallas, sumado a la adopción de posturas inadecuadas durante
-las sesiones de programación y estudio, se asocia con molestias osteomusculares y
-afecciones visuales que pueden condicionar el rendimiento académico, la
-concentración y la calidad de vida de los futuros ingenieros, quienes a menudo
-normalizan el malestar físico como un aspecto inevitable de su disciplina.
-
-\medskip
-\noindent\textbf{Causas.} Entre las principales causas se encuentra el
-desconocimiento de las normas básicas de higiene postural y de los principios de
-ergonomía en entornos de aprendizaje digital, así como el uso de mobiliario y
-equipos no adaptados ergonómicamente (por ejemplo, computadores portátiles usados
-sin soporte elevado ni periféricos externos, en mesas o sillas no regulables).
-También influyen la falta de hábito en la realización de pausas activas --- favorecida
-por la alta exigencia de entregas de software que fomenta jornadas continuas sin
-descansos--- y condiciones ambientales desfavorables, como una iluminación deficiente,
-distancias inadecuadas frente a la pantalla y un ajuste de brillo incorrecto.
-
-\medskip
-\noindent\textbf{Síntomas.} Entre los síntomas asociados se observan episodios
-recurrentes de fatiga visual, ardor ocular, sequedad y visión borrosa (vinculados al
-Síndrome Visual Informático), así como tensiones y dolores crónicos en la zona
-cervical, lumbar, hombros y muñecas derivados de mantener posturas forzadas por
-periodos prolongados. Se suma la fatiga física y mental acumulada: la permanencia
-continuada frente a dispositivos altera los patrones de sueño, reduce los niveles de
-atención y la capacidad de concentración, y el sedentarismo asociado contribuye al
-descondicionamiento físico general y a la aparición de cefaleas al finalizar las
-actividades diarias.
+La problemática de esta investigación se relaciona con las condiciones en que los
+estudiantes de Ingeniería de Sistemas desarrollan sus actividades académicas,
+especialmente aquellas que requieren un uso prolongado del computador y otros
+dispositivos electrónicos. Las extensas jornadas dedicadas al estudio, la
+programación, la consulta de información y el desarrollo de proyectos pueden generar
+molestias físicas y visuales, como fatiga ocular, sequedad o irritación de los ojos,
+dolores o molestias en el cuello, hombros, espalda, brazos y muñecas, además de
+cansancio físico y mental, particularmente cuando estas actividades se realizan
+acompañadas de posturas inadecuadas, permanencia prolongada en una misma posición y
+pausas insuficientes [1], [2]. En población universitaria se ha reportado una elevada
+frecuencia de estas afectaciones; en particular, el síndrome visual informático
+constituye una problemática frecuente entre estudiantes expuestos de manera
+prolongada a dispositivos electrónicos [2], mientras que los trastornos
+musculoesqueléticos presentan una alta frecuencia entre universitarios, con
+afectaciones principalmente en regiones como el cuello, la zona lumbar y la espalda
+[1]. Esta situación puede verse favorecida por la exposición continua a pantallas,
+debido al esfuerzo visual sostenido y a la ausencia de periodos adecuados de
+descanso; por la adopción de posturas inadecuadas, como mantener el cuello inclinado
+hacia adelante, la espalda encorvada, los hombros elevados o las muñecas en
+posiciones poco favorables; y por la permanencia durante largos periodos en una
+misma posición. Asimismo, la falta de pausas activas y descansos visuales puede
+reducir las oportunidades de recuperación física durante las jornadas académicas,
+mientras que unas condiciones ergonómicas inadecuadas del puesto de estudio, como
+mobiliario que no se ajusta correctamente, computadores portátiles ubicados a una
+altura inconveniente o dispositivos de entrada utilizados en posiciones poco
+favorables, pueden contribuir a la aparición de molestias musculoesqueléticas [1]. A
+estas condiciones se suman factores relacionados con el entorno de estudio, como una
+iluminación inadecuada, reflejos o una configuración poco apropiada de la pantalla,
+que pueden incrementar el esfuerzo visual durante sesiones prolongadas frente a
+dispositivos electrónicos [2]. Como consecuencia de estas condiciones, los
+estudiantes pueden experimentar fatiga visual, manifestada mediante sensación de ojos
+cansados, secos, irritados o visión borrosa; molestias o dolor en cuello y hombros
+asociados con posturas estáticas y prolongadas; molestias en espalda, brazos, manos y
+muñecas relacionadas con la permanencia prolongada frente al computador y con
+posiciones poco adecuadas durante el uso del teclado y el mouse; así como cansancio
+físico y mental, que puede afectar el bienestar y la concentración durante las
+actividades académicas [1], [3]. De igual manera, la exposición prolongada a
+dispositivos electrónicos puede relacionarse con dolores de cabeza y otras molestias
+asociadas al uso intensivo de pantallas [3]. Aunque estas manifestaciones pueden
+presentarse con frecuencia durante la formación universitaria, algunos estudiantes
+pueden llegar a normalizarlas como parte de las exigencias de su carrera y no
+reconocer oportunamente la importancia de adoptar medidas preventivas. En este
+contexto, la realización de pausas activas y cambios periódicos de posición
+constituye una estrategia que puede favorecer la recuperación durante las jornadas
+académicas y contribuir al bienestar físico de los estudiantes [4]. Por esta razón,
+resulta pertinente analizar la relación existente entre las condiciones de estudio,
+los hábitos frente al computador y las molestias físicas y visuales que pueden
+experimentar los estudiantes de Ingeniería de Sistemas, con el propósito de
+identificar los principales factores asociados y contribuir al planteamiento de
+medidas preventivas que favorezcan condiciones más adecuadas para el desarrollo de
+sus actividades académicas.
 
 \bigskip
 \begin{center}
-\begin{longtable}{L{7cm} L{7cm}}
-\caption{Causas y síntomas identificados en la situación problemática} \\
+\begin{longtable}{c L{7cm} L{5cm}}
+\caption{Relación entre síntomas y causas} \\
 \toprule
-\textbf{Causas} & \textbf{Síntomas} \\
+\textbf{Ord.} & \textbf{Síntoma} & \textbf{Causas relacionadas} \\
 \midrule
 \endfirsthead
-Desconocimiento de normas ergonómicas & Fatiga visual (Síndrome Visual Informático) \\
-Uso de mobiliario y equipos inadecuados & Dolores osteomusculares (cervical, lumbar, muñecas) \\
-Ausencia de pausas activas durante la jornada & Cansancio físico y mental acumulado \\
-Exposición ininterrumpida a pantallas & Cefaleas y dolores de cabeza recurrentes \\
-Iluminación y distancia de visión incorrectas & Disminución de la concentración y fatiga crónica \\
-Estilo de vida sedentario y jornadas extensas & Alteraciones en los patrones de sueño \\
+1 & Fatiga visual después de jornadas prolongadas frente a pantallas & 1, 2, 3, 4 \\
+2 & Sensación de ojos secos, cansados o irritados & 1, 2, 3 \\
+3 & Dolor o molestia en cuello y hombros & 1, 3, 4, 5 \\
+4 & Dolor o molestia en espalda & 1, 3, 4, 5 \\
+5 & Molestias en muñecas, brazos o manos & 1, 3, 4, 5, 6 \\
+6 & Dolores de cabeza y disminución de la comodidad durante el estudio & 1, 2, 3 \\
+\bottomrule
+\end{longtable}
+\end{center}
+
+\bigskip
+\begin{center}
+\begin{longtable}{c L{7cm} L{5cm}}
+\caption{Relación entre causas y síntomas} \\
+\toprule
+\textbf{Ord.} & \textbf{Causa} & \textbf{Síntomas relacionados} \\
+\midrule
+\endfirsthead
+1 & Exposición prolongada a pantallas durante las jornadas de estudio & 1, 2, 3, 4, 5 \\
+2 & Falta de pausas o descansos visuales durante el estudio & 1, 2 \\
+3 & Permanecer durante largos periodos en una misma posición & 1, 2, 3, 4, 5 \\
+4 & Adopción de posturas inadecuadas durante el uso del computador & 3, 4, 5, 6 \\
+5 & Puesto de estudio con condiciones ergonómicas inadecuadas & 3, 4, 5, 6 \\
+6 & Falta de pausas activas y cambios de posición & 3, 4, 5, 6 \\
 \bottomrule
 \end{longtable}
 \end{center}
 
 \subsection{Formulación del problema}
 \estado{En construcción}
-\notafase{Se redacta cuando se libere el tema correspondiente en el curso (Fase 2).}
+\notafase{Se redacta en la Fase 2 del curso.}
 
 \subsection{Consecuencias de no investigar}
 \estado{En construcción}
-\notafase{Se redacta cuando se libere el tema correspondiente en el curso (Fase 2).}
+\notafase{Se redacta en la Fase 2 del curso.}
 
 \subsection{Delimitación}
 \estado{En construcción}
-\notafase{Se redacta cuando se libere el tema correspondiente en el curso (Fase 2). Delimitación tentativa: estudiantes de Ingeniería de Sistemas de la UPTC.}
+\notafase{Se redacta en la Fase 2 del curso.}
 
 \newpage
 % ================= 2. JUSTIFICACIÓN =================
 \section{Justificación}
 \estado{En construcción}
-\notafase{Se redacta en la Fase 3 del curso (Formulación de la propuesta). Insumo disponible en el Anexo A: respuestas de interés y pertinencia del instrumento de selección de idea.}
+\notafase{Se redacta en la Fase 3 del curso.}
 
 \newpage
 % ================= 3. OBJETIVOS =================
@@ -214,31 +256,31 @@ Estilo de vida sedentario y jornadas extensas & Alteraciones en los patrones de 
 % ================= 4. ALCANCE =================
 \section{Alcance de la investigación}
 \estado{En construcción}
-\notafase{Sección incorporada según Hernández-Sampieri (tipo de estudio: exploratorio, descriptivo, correlacional o explicativo) --- no aparece como título propio en la NTC 1486. Se redacta en la Fase 3.}
+\notafase{Se redacta en la Fase 3 del curso.}
 
 \newpage
 % ================= 5. HIPÓTESIS =================
 \section{Formulación de hipótesis}
 \estado{En construcción}
-\notafase{Sección incorporada según Hernández-Sampieri, Tamayo y Tamayo y Bernal --- no aparece como título propio en la NTC 1486. Se redacta en la Fase 3.}
+\notafase{Se redacta en la Fase 3 del curso.}
 
 \newpage
 % ================= 6. VARIABLES =================
 \section{Variables}
 \estado{En construcción}
-\notafase{Definición nominal/conceptual en la Fase 3; operacionalización completa en la Fase 5.}
+\notafase{Se redacta en la Fase 3 del curso.}
 
 \newpage
 % ================= 7. MARCO REFERENCIAL =================
 \section{Marco referencial}
 \estado{En construcción}
-\notafase{Se redacta en la Fase 4 del curso (Construcción del marco referencial).}
+\notafase{Se redacta en la Fase 4 del curso.}
 
 \newpage
 % ================= 8. DISEÑO METODOLÓGICO =================
 \section{Diseño metodológico}
 \estado{En construcción}
-\notafase{Se redacta en la Fase 5 del curso. Insumo disponible en el Anexo A: respuestas de viabilidad del instrumento de selección de idea (encuesta estructurada, participantes disponibles, herramientas de recolección y análisis).}
+\notafase{Se redacta en la Fase 5 del curso.}
 
 \newpage
 % ================= 9. RESULTADOS =================
@@ -255,15 +297,25 @@ Estilo de vida sedentario y jornadas extensas & Alteraciones en los patrones de 
 \newpage
 % ================= REFERENCIAS =================
 \section*{\centering REFERENCIAS}
-\estado{En construcción}
-\notafase{Aún no se han incorporado referencias bibliográficas al proyecto. Se documentan aquí a medida que cada fase incorpore fuentes citadas, siguiendo la numeración de primera aparición en el texto.}
+
+\begin{enumerate}[leftmargin=1.8em,label=\lbrack\arabic*\rbrack,itemsep=0.6em]
+\item F. Ccami-Bernal, P. Urday-Ramos, F. Zela-Coila, J. K. Cáceres-Ruiz y V. Cabrera-Caso, ``Trastornos musculoesqueléticos y prácticas ergonómicas en universitarios peruanos durante la pandemia de la COVID-19,'' \emph{Revista Cubana de Ortopedia y Traumatología}, vol. 37, no. 3, 2023. [En línea]. Disponible en: \url{https://revortopedia.sld.cu/index.php/revortopedia/article/view/608}
+
+\item D. Fernández-Villacorta, A. N. Soriano-Moreno, T. Gálvez-Olórtegui, N. Agüero-Santivañez, D. R. Soriano-Moreno y V. A. Benites-Zapata, ``Síndrome visual informático en estudiantes universitarios de posgrado de una universidad privada de Lima, Perú,'' \emph{Archivos de la Sociedad Española de Oftalmología}, vol. 96, no. 10, 2021. [En línea]. Disponible en: \url{https://www.elsevier.es/es-revista-archivos-sociedad-espanola-oftalmologia-296-articulo-sindrome-visual-informatico-estudiantes-universitarios-S0365669121000058}
+
+\item R. M. Meneses Castañeda, S. L. Ramos Rodríguez, C. D. C. Molfino Jaramillo, E. L. Sánchez Miraval, D. F. Stein Montoros y L. G. Chávez Rodríguez, ``Frecuencia del síndrome visual informático en estudiantes de sexto año de medicina durante la educación virtual por COVID-19,'' \emph{Revista de la Facultad de Medicina Humana}, 2021.
+
+\item Zhunio Suin et al., ``Pausas activas y su importancia en el bienestar de estudiantes universitarios,'' 2024.
+\end{enumerate}
+
+\notafase{Lista numerada por orden de primera aparición en el texto; crece en fases posteriores.}
 
 \newpage
 % ================= ANEXOS =================
 \section*{\centering ANEXOS}
 
 \subsection*{Anexo A. Instrumento de selección de idea de investigación (Lección 1)}
-\notafase{Reproduce, para trazabilidad, la información propia del equipo diligenciada en el instrumento de la Lección 1 (se excluye el ejemplo resuelto de la guía).}
+\notafase{Información diligenciada por el equipo en el instrumento de la Lección 1.}
 
 \bigskip
 \noindent\textbf{Datos del equipo}
