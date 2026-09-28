@@ -13,4 +13,5 @@ Queremos saber cuál es la relación entre el número de horas diarias dedicadas
 ## Estado del proyecto
 
 Lección 1 — infraestructura inicial del repositorio configurada.
+Leccion 2
 
