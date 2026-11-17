@@ -28,6 +28,9 @@
 \definecolor{badgeborder}{HTML}{C9A227}
 \definecolor{badgetext}{HTML}{8A6D1D}
 \definecolor{greensignal}{HTML}{2E7D32}
+\definecolor{yellowsignal}{HTML}{B8860B}
+\definecolor{pendbg}{HTML}{FDECEA}
+\definecolor{pendborder}{HTML}{C62828}
 
 % ---------- Formato de títulos de sección (centrado, versalitas, como el PDF) ----------
 \titleformat{\section}{\centering\bfseries\large}{\thesection.}{0.5em}{\MakeUppercase}
@@ -50,3 +53,16 @@
 
 % ---------- Columna de tabla con ancho fijo y texto justificado a la izquierda ----------
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+% ---------- Rótulo de tablas en español ("Tabla 1" en vez de "Table 1") ----------
+\renewcommand{\tablename}{Tabla}
+
+% ---------- Recuadro para datos que el equipo aún debe completar ----------
+% Uso: \pendiente{Qué falta escribir aquí.}
+% Reemplaza el comando completo por el texto real antes de entregar.
+\newcommand{\pendiente}[1]{%
+  \begin{tcolorbox}[colback=pendbg,colframe=pendborder,boxrule=0.5pt,arc=4pt,
+    left=6pt,right=6pt,top=4pt,bottom=4pt,fontupper=\small]
+  \textbf{\color{pendborder}PENDIENTE DEL EQUIPO:} #1
+  \end{tcolorbox}
+}
