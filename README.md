@@ -19,9 +19,9 @@ El recorrido completo (cómo surgió la idea, prueba de investigabilidad y filtr
 | Fase | Contenido | Estado |
 |---|---|---|
 | 1 | Ideación y exploración inicial (Anexo A) | Redactada — faltan 3 datos del equipo marcados como `\pendiente` |
-| 2 | Diagnóstico y planteamiento del problema (sección 1) | Redactada — falta validar la matriz del numeral 1.2 y completar las referencias [3] y [4] |
+| 2 | Diagnóstico y planteamiento del problema (sección 1) | Redactada — falta validar la matriz del numeral 1.2 y completar la referencia [4] |
 | 3 | Formulación de la propuesta (secciones 2 a 6) | Redactada — falta validar objetivos, hipótesis y variables como equipo |
-| 4 | Marco referencial (sección 7) | Parcial |
+| 4 | Marco referencial (sección 7) | Redactada — falta registrar el embudo real de la búsqueda del estado del arte |
 | 5 | Diseño metodológico (sección 8) | Por hacer |
 | 6 | Resultados (sección 9) | Por hacer |
 | 7 | Cierre y memoria final (sección 10) | Por hacer |
