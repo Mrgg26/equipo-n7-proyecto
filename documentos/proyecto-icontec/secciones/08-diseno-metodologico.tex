@@ -1,3 +1,189 @@
+% ==========================================================
+% 8. DISEÑO METODOLÓGICO (Fase 5)
+% 8.1 Diseño | 8.2 Operacionalización | 8.3 Protocolo de rigor
+% 8.4 Población y muestra | 8.5 Técnicas, instrumentos y validación
+% ==========================================================
+
 \section{Diseño metodológico}
-\estado{En construcción}
-\notafase{Se redacta en la Fase 5 del curso.}
+
+\subsection{Enfoque, alcance y diseño}
+
+El estudio tiene un enfoque cuantitativo y un alcance correlacional (sección 4). Para
+llevarlos a la práctica se adopta un diseño no experimental transversal: las variables se
+observan tal como ocurren, en un solo momento y sin manipular ninguna, mediante una
+encuesta aplicada una única vez a los estudiantes [11].
+
+Se descartan los diseños experimental y cuasi-experimental porque el estudio no
+manipula la exposición ni asigna estudiantes a grupos: pregunta si existe relación, no
+cuánto cambia el efecto con una intervención. Se descarta el diseño longitudinal porque el
+semestre no alcanza para observar a los mismos estudiantes en más de un momento. Se
+descartan los diseños cualitativos porque las hipótesis (sección 5) anticipan relaciones
+entre variables medibles.
+
+\subsection{Operacionalización de variables}
+
+La Tabla~\ref{tab:operacionalizacion} completa la definición nominal-conceptual de la
+sección 6 con el indicador, el instrumento, la escala y la unidad de cada variable.
+
+\bigskip
+\begin{center}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{L{2.6cm} L{3.6cm} L{3.8cm} L{2cm} L{2.4cm}}
+\caption{Matriz de operacionalización de variables}\label{tab:operacionalizacion} \\
+\toprule
+\textbf{Variable} & \textbf{Indicador} & \textbf{Instrumento} & \textbf{Escala} & \textbf{Unidad} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Variable} & \textbf{Indicador} & \textbf{Instrumento} & \textbf{Escala} & \textbf{Unidad} \\
+\midrule
+\endhead
+Tiempo de exposición a pantallas (independiente) & Horas diarias promedio frente a pantallas en las jornadas de estudio & Ítem de autorreporte en la encuesta, por tipo de dispositivo & De razón & Horas por día \\
+\midrule
+Hábitos posturales (independiente) & Puntaje del índice de hábitos posturales inadecuados & Sección de la encuesta con ocho ítems de frecuencia (ver numeral 8.5) & Ordinal (puntaje) & Puntos, de 0 a 32 \\
+\midrule
+Fatiga visual (dependiente) & Puntaje de severidad del síndrome visual informático & Cuestionario CVS-Q, con 16 síntomas evaluados por frecuencia e intensidad [21], [22] & De intervalo (puntaje) & Puntos, de 0 a 32 \\
+\midrule
+Molestias osteomusculares (dependiente) & Presencia de molestias por región corporal y número de regiones afectadas & Cuestionario Nórdico estandarizado [23], limitado a las regiones del estudio & Nominal por región; de razón para el conteo & Sí/no; regiones, de 0 a 6 \\
+\midrule
+Sexo (interviniente) & Sexo declarado & Ítem de la encuesta & Nominal & Femenino / masculino \\
+\midrule
+Semestre cursado (interviniente) & Semestre en que está matriculado & Ítem de la encuesta & Ordinal & Semestre (1 a 10) \\
+\midrule
+Dispositivo principal (interviniente) & Equipo que usa con mayor frecuencia para estudiar & Ítem de la encuesta & Nominal & Portátil / escritorio / otro \\
+\bottomrule
+\end{longtable}
+\end{center}
+
+\noindent El puntaje del CVS-Q se calcula multiplicando la frecuencia (0 a 2) por la
+intensidad de cada síntoma y reclasificando el resultado en 0, 1 o 2 puntos; la suma de
+los 16 síntomas va de 0 a 32, y un puntaje de 6 o más se interpreta como indicativo del
+síndrome, como se aplica en [13]. Además del puntaje, se registra esa clasificación
+dicotómica y la exposición de cuatro horas o más al día, que es el punto de corte usado en
+[13], para comparar con la literatura. La escala de cada variable determina las pruebas
+estadísticas de la Fase 6.
+
+\subsection{Protocolo de rigor}
+
+Por ser un estudio correlacional no hay grupo de tratamiento ni grupo de comparación: el
+control de lo que podría confundir los resultados se hace de forma estadística. Las
+variables intervinientes (sexo, semestre y dispositivo principal) se miden en todos los
+participantes y se incluyen como covariables en el análisis de la Fase 6, en vez de
+emparejar o bloquear estudiantes.
+
+El protocolo es el mismo para todos los participantes: la misma encuesta digital, en el
+mismo periodo de aplicación de dos semanas, con las mismas instrucciones y la misma
+declaración de consentimiento. La Tabla~\ref{tab:amenazas} registra las amenazas a la
+validez que se anticipan y cómo se tratan.
+
+\bigskip
+\begin{center}
+\small
+\begin{longtable}{L{2.4cm} L{5.4cm} L{6.8cm}}
+\caption{Amenazas a la validez y su tratamiento}\label{tab:amenazas} \\
+\toprule
+\textbf{Tipo} & \textbf{Amenaza} & \textbf{Tratamiento} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Tipo} & \textbf{Amenaza} & \textbf{Tratamiento} \\
+\midrule
+\endhead
+Interna & Sesgo de información y de memoria, porque el tiempo de pantalla y los síntomas se autorreportan [13]. & Instrumentos validados para los síntomas, preguntas con periodos de referencia definidos y respuestas anónimas. Queda sin resolver: no hay medición objetiva. \\
+\midrule
+Interna & Variables que confunden la relación (sexo, semestre, dispositivo). & Se miden y se controlan estadísticamente. Quedan sin controlar los factores filtrados (iluminación, defectos refractivos, trauma previo). \\
+\midrule
+Interna & Imposibilidad de establecer causalidad, por el diseño transversal. & Las conclusiones se redactan como asociación y no como causa. \\
+\midrule
+Externa & Muestra por conveniencia, de un solo programa y una sola sede. & Se declara la limitación y no se generalizan los resultados a otros programas ni sedes. \\
+\midrule
+Externa & Sesgo de selección: pueden responder más quienes tienen molestias. & Se invita a todos los estudiantes sin mencionar los síntomas en la convocatoria; se reporta la tasa de respuesta. \\
+\bottomrule
+\end{longtable}
+\end{center}
+
+\subsection{Población y muestra}
+
+La población son los estudiantes de pregrado matriculados en el programa de Ingeniería de
+Sistemas y Computación de la UPTC, sede Tunja, durante el periodo de aplicación. La
+unidad de análisis es cada estudiante, que responde una encuesta. Se incluyen los
+estudiantes mayores de 18 años que aceptan el consentimiento informado y se excluyen las
+encuestas incompletas.
+
+\pendiente{Registrar el número de estudiantes matriculados en el programa en el periodo de aplicación, con el dato de la Escuela o de Admisiones.}
+
+El muestreo es no probabilístico por cuotas según el semestre, con invitación abierta a
+todos los estudiantes del programa. No es posible un muestreo aleatorio simple por no
+contar con una lista de contacto de toda la población, lo que limita la generalización
+(Tabla~\ref{tab:amenazas}).
+
+El tamaño de la muestra se calculó para detectar una correlación de 0,20 entre dos
+variables, con un nivel de significancia de 0,05 bilateral y una potencia de 0,80. Con la
+transformación de Fisher, $n=\left[\frac{Z_{1-\alpha/2}+Z_{1-\beta}}{C}\right]^{2}+3$ con
+$C=\frac{1}{2}\ln\frac{1+r}{1-r}=0{,}2027$, resulta $n=194$. Se prevé una pérdida del 10~\%
+por encuestas incompletas, por lo que la meta es de 216 estudiantes. Si la población
+resulta menor que esa cifra, la meta se ajusta al total de estudiantes disponibles y se
+declara. Como referencia, el estudio [13] calculó una muestra de 204 personas para
+comparar la exposición con el síndrome visual informático.
+
+\subsection{Técnicas, instrumentos y validación}
+
+La técnica es una encuesta autoadministrada en un formulario digital. Las variables de
+percepción y autorreporte se capturan con cuestionarios, y no hay registros automáticos ni
+observación directa. La Tabla~\ref{tab:instrumento} resume la estructura de la encuesta.
+
+\bigskip
+\begin{center}
+\small
+\begin{longtable}{c L{4.2cm} L{7.8cm}}
+\caption{Estructura de la encuesta}\label{tab:instrumento} \\
+\toprule
+\textbf{N.°} & \textbf{Sección} & \textbf{Contenido} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{N.°} & \textbf{Sección} & \textbf{Contenido} \\
+\midrule
+\endhead
+1 & Consentimiento informado & Finalidad académica, voluntariedad, anonimato y tratamiento de datos de salud \\
+2 & Datos generales & Sexo, semestre y dispositivo principal de estudio \\
+3 & Exposición a pantallas & Horas diarias frente a pantallas, por tipo de dispositivo \\
+4 & Hábitos posturales & Ocho ítems propios, de frecuencia \\
+5 & Fatiga visual & CVS-Q, 16 síntomas \\
+6 & Molestias osteomusculares & Cuestionario Nórdico, seis regiones \\
+\bottomrule
+\end{longtable}
+\end{center}
+
+Para la fatiga visual se usa el CVS-Q, que evalúa la frecuencia y la intensidad de 16
+síntomas y tiene propiedades psicométricas aceptables en su validación original [21]; se
+usa su versión adaptada para Colombia, validada en una muestra de 300 trabajadores
+usuarios de computador de una universidad pública, con consistencia interna de 0,88 [22].
+Para las molestias osteomusculares se usa el Cuestionario Nórdico estandarizado [23], que
+también se empleó en estudiantes universitarios [1].
+
+Los dos instrumentos se validaron en trabajadores o en otras poblaciones, no en
+estudiantes de ingeniería de sistemas, por lo que se reporta la consistencia interna del
+CVS-Q en la muestra del estudio y se declara la limitación. Su uso requiere confirmar los
+términos de uso de los autores.
+
+\pendiente{Confirmar con los autores o con el sitio oficial los términos de uso del CVS-Q (Colombia), que es un instrumento con derechos reservados.}
+
+El índice de hábitos posturales es un instrumento propio de ocho ítems, cada uno con
+frecuencia de 0 (nunca) a 4 (siempre) y redactado para que un puntaje mayor indique hábitos
+más inadecuados: (1) mantener la cabeza inclinada hacia la pantalla, (2) espalda sin
+apoyo, (3) permanecer más de una hora sin cambiar de posición, (4) usar el portátil en la
+cama o el sofá, (5) pantalla por debajo del nivel de los ojos, (6) no hacer pausas activas,
+(7) no hacer estiramientos y (8) silla o mesa inadecuadas. Estos ítems se apoyan en los
+factores asociados en [1] y [6].
+
+Antes de aplicar la encuesta se realiza una prueba piloto con un grupo pequeño de
+estudiantes ajenos a la muestra, para detectar preguntas ambiguas, el tiempo de respuesta y
+problemas técnicos del formulario. La validez de contenido de los ítems propios se revisa
+con dos docentes expertos, y la confiabilidad del índice se estima con el alfa de Cronbach
+[24], con un valor de 0,70 o más como criterio de aceptación. La validez de constructo
+se sustenta en la coherencia con el marco teórico (sección 7) y en el uso de instrumentos
+ya validados para los otros dos grupos de síntomas.
+
+\pendiente{Registrar el número de estudiantes de la prueba piloto, el tiempo de respuesta, los ajustes hechos a los ítems y el alfa de Cronbach obtenido.}
