@@ -23,8 +23,31 @@ El recorrido completo (cómo surgió la idea, prueba de investigabilidad y filtr
 | 3 | Formulación de la propuesta (secciones 2 a 6) | Redactada — falta validar objetivos, hipótesis y variables como equipo |
 | 4 | Marco referencial (sección 7) | Redactada — falta registrar el embudo real de la búsqueda del estado del arte |
 | 5 | Diseño metodológico (sección 8) | Redactada — faltan matrícula, piloto y permiso del CVS-Q |
-| 6 | Resultados (sección 9) | Por hacer |
+| 6 | Resultados (sección 9) | Parcial — plan de ejecución y de análisis redactado; faltan los datos reales de la encuesta |
 | 7 | Cierre y memoria final (sección 10) | Por hacer |
+
+## Pendientes del equipo
+
+Lo que falta y solo el equipo puede completar. Cada uno está marcado en el documento como `\pendiente` o descrito en el lugar indicado.
+
+| Fase | Pendiente | Dónde |
+|---|---|---|
+| 1 | Registrar la lluvia de ideas real, una observación real de compañeros y las entrevistas cortas | Anexo A |
+| 2 | Validar como equipo la matriz de correlación y el filtro de ruido; completar la referencia [4] (Zhunio Suin) | Numeral 1.2 y referencias |
+| 3 | Validar objetivos, hipótesis y variables; decidir si la pregunta se formula con "si" en vez de "cómo" | Secciones 2 a 6 y numeral 1.3 |
+| 4 | Registrar el embudo real de la búsqueda del estado del arte; confirmar con el docente la clasificación del riesgo (Resolución 8430) | Numerales 7.2 y 7.5 |
+| 5 | Registrar el número de estudiantes matriculados en el programa | Numeral 8.4 |
+| 5 | Confirmar los términos de uso del CVS-Q (Colombia) | Numeral 8.5 |
+| 5 | Validar los ocho ítems de hábitos posturales con dos docentes y hacer la prueba piloto (número de participantes, tiempo, ajustes y alfa de Cronbach) | Numeral 8.5 |
+| 5 | Definir las fechas exactas de aplicación de la encuesta | Numeral 1.5 y sección 8 |
+| 5 | Comprobar los datos de las referencias [23] (Cuestionario Nórdico) y [24] (Cronbach) | Referencias |
+| 6 | Aplicar la encuesta y consolidar los datos en un único conjunto | Numeral 9.1 |
+| 6 | Registrar desviaciones, tasa de respuesta y encuestas excluidas | Numeral 9.1 |
+| 6 | Calcular y reportar las estadísticas descriptivas | Numeral 9.2 |
+| 6 | Aplicar las pruebas, reportar el tamaño del efecto y decidir cada hipótesis nula | Numeral 9.3 |
+| 6 | Insertar las tablas y figuras reales | Numeral 9.4 |
+| 6 | Redactar la discusión frente al estado del arte y las limitaciones | Numeral 9.5 |
+| 7 | Redactar las conclusiones, las recomendaciones y la memoria final con los resultados reales | Sección 10 |
 
 ## Estructura del repositorio
 

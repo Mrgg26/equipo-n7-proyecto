@@ -1,3 +1,207 @@
+% ==========================================================
+% 9. RESULTADOS Y DISCUSIÓN (Fase 6)
+% Plan de ejecución y de análisis. Los resultados reales se
+% registran cuando el equipo aplique la encuesta.
+% ==========================================================
+
 \section{Resultados y discusión}
-\estado{En construcción}
-\notafase{Se redacta en la Fase 6 del curso.}
+\estado{Plan redactado; faltan los datos}
+
+\noindent Esta sección fija, antes de recolectar los datos, cómo se ejecuta el protocolo,
+cómo se resumen y se ponen a prueba las hipótesis, cómo se presentan los resultados y con
+qué literatura se comparan. Los resultados no se incluyen porque la encuesta aún no se ha
+aplicado.
+
+\subsection{Ejecución del protocolo}
+
+La Tabla~\ref{tab:checklist} es la lista de verificación de la ejecución, tomada del
+protocolo de la sección 8.
+
+\bigskip
+\begin{center}
+\small
+\begin{longtable}{L{3.4cm} L{11.4cm}}
+\caption{Lista de verificación de la ejecución}\label{tab:checklist} \\
+\toprule
+\textbf{Momento} & \textbf{Qué verificar} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Momento} & \textbf{Qué verificar} \\
+\midrule
+\endhead
+Antes de empezar & Encuesta probada en el piloto, formulario con el consentimiento informado como primera sección, permiso de uso del CVS-Q y fechas de aplicación definidas. \\
+\midrule
+Durante la recolección & La misma encuesta, las mismas instrucciones y el mismo periodo de dos semanas para todos; seguimiento de las cuotas por semestre. \\
+\midrule
+Al cierre de la recolección & Descargar y respaldar las respuestas de inmediato, y registrar el número de respuestas recibidas frente a la meta de 216. \\
+\midrule
+Antes de analizar & Consolidar todo en un único conjunto de datos, sin editarlo a mano. \\
+\bottomrule
+\end{longtable}
+\end{center}
+
+Toda desviación del protocolo (una semana de aplicación adicional, un cambio en el
+formulario, una cuota de semestre sin cubrir, una falla técnica) se anota con su causa y
+su fecha en el momento en que ocurre, y se retoma en las limitaciones del numeral 9.5.
+
+\pendiente{Registrar las desviaciones reales de la ejecución, la tasa de respuesta (respuestas recibidas frente a la meta de 216) y las encuestas excluidas con su causa.}
+
+Antes de calcular estadísticas, los datos se preparan en tres pasos. La
+\emph{codificación} convierte cada respuesta a la escala de la Tabla~11: el CVS-Q se
+puntúa como se describe en la sección 8, el índice de hábitos posturales suma los ocho
+ítems (con los ítems de pausas, estiramientos y mobiliario ya redactados para que el
+puntaje mayor indique hábitos más inadecuados) y las molestias osteomusculares se cuentan
+por región. La \emph{limpieza} revisa los valores imposibles, como más de 24 horas diarias
+de pantalla, y los corrige o los descarta con la causa anotada. Para los \emph{datos
+faltantes}, y de acuerdo con la sección 8, se excluye la encuesta incompleta.
+
+\subsection{Estadística descriptiva}
+
+Las medidas se eligen según la escala de cada variable, definida en la Tabla~11. No se
+calcula la media de una variable ordinal.
+
+\bigskip
+\begin{center}
+\small
+\begin{longtable}{L{4.4cm} L{3.4cm} L{3.4cm} L{3.2cm}}
+\caption{Medidas descriptivas por variable}\label{tab:descriptivas} \\
+\toprule
+\textbf{Variable} & \textbf{Escala} & \textbf{Tendencia central} & \textbf{Dispersión} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Variable} & \textbf{Escala} & \textbf{Tendencia central} & \textbf{Dispersión} \\
+\midrule
+\endhead
+Horas diarias de pantalla & De razón & Media (mediana si hay asimetría) & Desviación estándar (rango intercuartílico) \\
+\midrule
+Índice de hábitos posturales & Ordinal & Mediana & Rango intercuartílico \\
+\midrule
+Puntaje del CVS-Q & De intervalo & Media & Desviación estándar \\
+\midrule
+Síndrome visual (CVS-Q de 6 puntos o más) & Nominal & Proporción & Frecuencias \\
+\midrule
+Molestias por región & Nominal & Proporción por región & Frecuencias \\
+\midrule
+Número de regiones con molestias & De razón & Mediana & Rango intercuartílico \\
+\midrule
+Sexo y dispositivo principal & Nominal & Moda & Frecuencias \\
+\midrule
+Semestre & Ordinal & Mediana & Rango intercuartílico \\
+\bottomrule
+\end{longtable}
+\end{center}
+
+\pendiente{Reportar las estadísticas descriptivas reales con la muestra final (n), en general y por sexo, semestre y dispositivo principal.}
+
+\subsection{Estadística inferencial}
+
+La Tabla~\ref{tab:pruebas} asigna una prueba a cada hipótesis de la sección 5, según el
+diseño y la escala de las variables [25]. Todas se evalúan con un nivel de significancia de
+0,05 bilateral. Antes de elegir entre una prueba paramétrica y una no paramétrica se revisa
+la distribución de cada variable.
+
+\bigskip
+\begin{center}
+\small
+\begin{longtable}{L{1.2cm} L{4.2cm} L{4.2cm} L{5cm}}
+\caption{Pruebas estadísticas por hipótesis}\label{tab:pruebas} \\
+\toprule
+\textbf{Hip.} & \textbf{Relación} & \textbf{Prueba principal} & \textbf{Análisis ajustado} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Hip.} & \textbf{Relación} & \textbf{Prueba principal} & \textbf{Análisis ajustado} \\
+\midrule
+\endhead
+1 & Horas de pantalla y puntaje del CVS-Q & Correlación de Spearman & Regresión lineal múltiple, y razón de prevalencia del síndrome para 4 horas o más como en [13] \\
+\midrule
+2 & Horas de pantalla y número de regiones con molestias & Correlación de Spearman & Regresión de Poisson para el conteo de regiones \\
+\midrule
+3 & Índice de hábitos posturales y número de regiones con molestias & Correlación de Spearman & Regresión de Poisson para el conteo de regiones \\
+\bottomrule
+\end{longtable}
+\end{center}
+
+El análisis ajustado incluye como covariables el sexo, el semestre y el dispositivo
+principal, que son las variables intervinientes de la sección 6. Con el valor p se reporta
+siempre el tamaño del efecto: el coeficiente de correlación con su intervalo de confianza
+del 95~\% y, en las regresiones, la razón de prevalencia o el coeficiente con su intervalo
+[26].
+
+La decisión sobre cada hipótesis nula se redacta con cautela: un valor p menor que 0,05
+indica que los datos son incompatibles con la ausencia de relación, y un valor mayor indica
+que no hay evidencia suficiente para rechazar H$_0$, no que la relación no exista. Por ser
+un estudio transversal, los resultados se interpretan como asociación y no como causa.
+
+\pendiente{Reportar el resultado de cada prueba (coeficiente, intervalo de confianza, valor p y tamaño del efecto) y la decisión sobre cada H$_0$.}
+
+\subsection{Presentación de los resultados}
+
+Los valores exactos se presentan en tablas, que se numeran y se mencionan en el texto
+antes de que aparezcan, y los patrones en figuras con su título y numeración propios. La
+Tabla~\ref{tab:graficos} indica el gráfico previsto para cada resultado.
+
+\bigskip
+\begin{center}
+\small
+\begin{longtable}{L{6cm} L{4.3cm} L{4.3cm}}
+\caption{Gráficos previstos}\label{tab:graficos} \\
+\toprule
+\textbf{Resultado} & \textbf{Gráfico} & \textbf{Hipótesis} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Resultado} & \textbf{Gráfico} & \textbf{Hipótesis} \\
+\midrule
+\endhead
+Proporción de estudiantes con molestias por región corporal & Gráfico de barras & Descriptiva \\
+\midrule
+Horas de pantalla frente al puntaje del CVS-Q & Dispersograma & 1 \\
+\midrule
+Puntaje del CVS-Q según exposición de menos de 4 horas o de 4 horas o más & Diagrama de caja & 1 \\
+\midrule
+Horas de pantalla y hábitos posturales frente al número de regiones con molestias & Dispersogramas & 2 y 3 \\
+\bottomrule
+\end{longtable}
+\end{center}
+
+\pendiente{Insertar las tablas y figuras reales con los datos de la encuesta.}
+
+\subsection{Discusión de los resultados}
+
+La discusión interpreta los resultados, no los repite. Cada resultado se compara con los
+estudios del estado del arte (sección 7) y se declara si los confirma, los contradice o
+llena el vacío identificado en el numeral 7.1: la población de pregrado de Ingeniería de
+Sistemas, el contexto actual de estudio y el análisis conjunto de síntomas visuales y
+osteomusculares. La Tabla~\ref{tab:comparacion} indica con qué literatura se compara cada
+hipótesis.
+
+\bigskip
+\begin{center}
+\small
+\begin{longtable}{L{1.2cm} L{5.4cm} L{8cm}}
+\caption{Literatura de comparación por hipótesis}\label{tab:comparacion} \\
+\toprule
+\textbf{Hip.} & \textbf{Estudios con los que se compara} & \textbf{Qué se contrasta} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Hip.} & \textbf{Estudios con los que se compara} & \textbf{Qué se contrasta} \\
+\midrule
+\endhead
+1 & [5], [13], [14] & Asociación entre exposición y síntomas visuales, incluido el punto de corte de cuatro horas \\
+\midrule
+2 & [1], [7] & Asociación entre exposición o jornadas prolongadas y molestias osteomusculares \\
+\midrule
+3 & [1], [6] & Asociación entre posturas, mobiliario y pausas, y molestias osteomusculares \\
+\bottomrule
+\end{longtable}
+\end{center}
+
+La discusión retoma de forma explícita cada hipótesis y declara si se rechazó H$_0$ o no
+hubo evidencia suficiente para rechazarla, y consolida las limitaciones: las amenazas
+a la validez de la Tabla~12 y las desviaciones registradas en el numeral 9.1.
+
+\pendiente{Redactar la discusión con los resultados reales: comparación con la literatura, decisión sobre cada hipótesis y limitaciones consolidadas.}
